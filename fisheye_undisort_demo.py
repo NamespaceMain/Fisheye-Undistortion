@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import os
 import argparse
-from lib.fisheye_undistortion_process import undistort_process_by_point as undistort_point
-from lib.fisheye_undistortion_process import undistort_process_by_img as undistort_img
+from util.fisheye_undistortion_process import undistort_process_by_point as undistort_point
+from util.fisheye_undistortion_process import undistort_process_by_img as undistort_img
 
 parser = argparse.ArgumentParser(description='Fisheye undistortion project.')
 
